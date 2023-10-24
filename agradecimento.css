@@ -1,0 +1,36 @@
+body{
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    margin: -1;
+    scrollbar-width: none;
+    color: aliceblue;
+    font-family: 'Young Serif';
+    overflow-x: hidden; overflow-y: scroll; 
+} 
+.cabecalho{
+    text-align: center;
+    position: fixed;
+    background: rgb(0,0,0);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.16290266106442575) 0%, rgba(226,185,86,1) 80%);
+    height: 200px;
+    width: 100%;
+    z-index: 999; 
+    top: 0;
+    right: 0;
+}
+.chamada{
+    position: relative;
+    top: 250px;
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 30pt;
+    margin: 80px;  
+}
+.red{
+    position: relative;
+    top: 400px;
+    text-align: center;
+    display: block; 
+}

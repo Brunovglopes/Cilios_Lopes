@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agende já</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="./Fotos/logoprovisoria.png" type="image/x-icon">
+</head>
+<body>
+    <div class="cabecalho">
+
+<img src="./Fotos/logoprovisoria.png">
+    </div>
+<div class="container">
+    <form method="post" action="agradecimento.html" id="agendamento" name="agendamento">
+     <div class="name">
+        <label for="name"> Nome: </label>
+        <input type="text"  name="name" id="na1me">
+    </div>
+    <div class="number">
+    <label for="number"> Número para contato: </label>
+        <input type="number" name="number" id="number">
+    </div>
+<div class="date">
+    <label for="date">Data: </label>
+        <input type="date" name="date" id="date" max="22-12-2023" min="23-10-2023">
+    </div>
+    <div class="hora">
+    <label for="hora">Horário: </label>
+      <input type="time" min="07:00" max="16:00" id="hora" name="hora" >
+    </div>
+<div class="bottom">
+    <input type="submit" value="AGENDAR" id="agendar" >
+</div>
+
+    </form>
+</div>
+</body>
+</html>
