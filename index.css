@@ -1,0 +1,240 @@
+body{
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    margin: 0;
+    scrollbar-width: none;
+    margin: 0;
+    color: aliceblue;
+}
+
+.cabecalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.16290266106442575) 0%, rgba(226,185,86,1) 80%);
+    height: 200px;
+    width: 110%;
+    z-index: 999; 
+}
+
+.menu {
+    display: flex;
+    float: left;
+    position: fixed;
+    top: 70px;
+    right: 100px;
+    padding: 15px;
+    color:  rgba(226,185,86,1);
+    font-weight: bold;
+}
+.menu li{
+    font-size: 25pt;}
+.menu li:hover,
+.menu li:focus {
+  background: black(226,185,86,1) ;
+  transform: translateX(10px) scale(1.2);
+  cursor: pointer;
+  box-shadow: 21px 0px;
+    -webkit-box-shadow:0 3px 10px 0 rgba(226,185,86,1);
+}
+.menu nav ul li{
+    list-style-type: none;
+    position:relative;
+    float: left;
+    margin-left: 50px;
+    z-index: 999;
+}
+.logo{ 
+    display: inline;
+    position:fixed ;
+    background-color: none;
+    height: 180px;
+    width: 170px;
+    border:none;
+    z-index: 999;
+}
+.corpo{ 
+    position: relative;
+    top: 250px;
+   text-align:center;
+    font-family: 'Young Serif';
+ margin-left: 35%;
+ margin-right: 35%;
+ z-index: 9;
+}
+.chamada{
+    display: block;
+    color: white;
+    font-size: 30pt;
+    
+     
+}
+.botao{
+    border-style: solid;
+    border-color: black;
+font-size: 25pt;
+border-radius: 10%;
+border: none;
+background-color: rgba(226,185,86,1);
+font-family: 'Young Serif';
+font-weight: bold;
+}
+button:hover,
+button:focus {
+  background: rgba(226,185,86,1) ;
+  transform: translateX(10px) scale(1.2);
+  cursor: pointer;
+  box-shadow: 21px 0px;
+    -webkit-box-shadow:0 3px 10px 0 rgba(226,185,86,1);
+}
+.pergunta{
+    position:relative ;
+    top:250px;
+    text-align: center;
+    font-size:25pt ;
+    font-weight: bold;
+}
+.respostas{
+    position:relative;
+    top:320px;
+    
+}
+table{
+    border-style: solid;
+    border-color: transparent;
+    width: 90%;
+    margin: 5%;
+    
+}
+th{
+    width: 33%;
+text-align: center;
+font-size: 20pt;
+}
+td{
+text-align: center;
+
+vertical-align: top;
+font-size: 16pt;
+border-style: solid;
+border-width: 10px;
+border-color: transparent;
+}
+.atencao{
+    border: none;
+}
+
+section.foto1{
+    position: relative;
+    top:100px;
+    left: 2%;
+    width: 60%;
+    height: 180px;
+    background-image: url(./Fotos/foto1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   border-style: solid;
+    border-color:  rgba(226,185,86,1);
+    z-index: 2px;
+}
+.sobremim .h2{
+    text-align:center;
+    color: rgba(226,185,86,1);
+
+}
+.sobremim{
+    position: relative;
+    top: 150px;
+    font-size: 16pt;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent;
+    margin: 200px;
+    text-align:justify;
+    font-size: 22pt;
+    box-shadow: 0px 10px;
+-webkit-box-shadow:0 0px 10px 0px rgba(226,185,86,1);
+display:grid;
+}
+.tabelate{
+    border-style: solid;
+    border-right-color:  rgba(226,185,86,1);
+    border-width: 1px;
+}
+li{
+    font-size: 20pt;
+    color:  rgba(226,185,86,1);
+    font-weight: bold;
+}
+.tecnicas p{
+    font-size: 16pt;
+    font-weight: bold;
+}
+.tecnicas .titulo{
+    text-align: center;
+    font-size: 45pt;
+}
+.tecnicas {
+    position: absolute;
+    top: 2300px;
+}
+.tecnicas section{
+    position: relative;
+    left: 30%;
+    width: 40%;
+    height: 150px;
+    background-image: url(./Fotos/foto1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   border-style: solid;
+    border-color:  rgba(226,185,86,1);
+    z-index: 2;
+}
+.rodape{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    background: rgba(226,185,86,1);
+    background: linear-gradient(0deg, rgba(226,185,86,1) 0%, rgba(255,255,255,0) 40%);
+    height: 200px;
+    width: 110%;
+    z-index: 999;
+    
+    
+}
+.rodape img{
+    position: relative;
+    bottom: 10px;
+    border-radius: 50%;
+}
+.rodape .insta{ 
+    position: fixed;
+    right: 10px;
+}
+.rodape .wpp{ 
+    position: fixed;
+    right: 100px;
+}
+.map{
+    position: relative;
+    text-align: center;
+    width: 600px;
+}
+
+iframe{ width: 90vw;
+    margin: 3%;
+    
+}
+.maptext{
+      position:relative ;
+
+    text-align: center;
+    font-size:25pt ;
+    font-weight: bold;
+}
