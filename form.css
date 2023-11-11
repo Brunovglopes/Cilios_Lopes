@@ -1,6 +1,7 @@
 body{
     background-image: url(fundo.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     margin: -1;
     scrollbar-width: none;
     margin: 0;
