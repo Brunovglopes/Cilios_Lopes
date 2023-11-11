@@ -286,3 +286,8 @@
             position: absolute;
             top: 2700px;
         }}
+        @media (max-width:320px) {
+            .tecnicas {
+                position: absolute;
+                top: 2800px;
+            }}
