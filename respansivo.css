@@ -1,3 +1,8 @@
+@media (max-width: 11870px) {
+    .tecnicas {
+        position: absolute;
+        top: 2600px;
+    }}
 @media (max-width: 1024px) {
     .menu {
         display: flex;
